@@ -11,10 +11,10 @@ name = "serde_macros"
 plugin = true
 
 [dependencies]
-quasi_macros = {path = "../../rust-quasi/quasi_macros"}
+quasi_macros = {git = "https://github.com/kbknapp/rust-quasi_macros"}
 
 [dependencies.aster]
-path = "../../rust-aster"
+git = "https://github.com/kbknapp/rust-aster"
 
 [dependencies.quasi]
-path = "../../rust-quasi/quasi"
+git = "https://github.com/kbknapp/rust-quasi"
