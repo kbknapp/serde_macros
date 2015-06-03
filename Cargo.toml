@@ -1,0 +1,20 @@
+[package]
+name = "serde_macros"
+version = "0.3.2"
+authors = ["Erick Tryzelaar <erick.tryzelaar@gmail.com>"]
+license = "MIT/Apache-2.0"
+description = "Macros to auto-generate implementations for the serde framework"
+repository = "https://github.com/erickt/rust-serde"
+
+[lib]
+name = "serde_macros"
+plugin = true
+
+[dependencies]
+quasi_macros = {path = "../../rust-quasi/quasi_macros"}
+
+[dependencies.aster]
+path = "../../rust-aster"
+
+[dependencies.quasi]
+path = "../../rust-quasi/quasi"
